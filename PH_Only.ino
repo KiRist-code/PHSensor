@@ -36,7 +36,7 @@ void loop(void) {
     Serial.print(",");
     Serial.print("0");
     Serial.print(",");
-    Serial.print("0\n");
+    Serial.println("0");
 
     // digitalWrite(LED, digitalRead(LED) ^ 1);
     printTime = millis();
