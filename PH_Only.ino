@@ -11,7 +11,6 @@ int pHArrayIndex = 0;
 void setup(void) {
   pinMode(LED, OUTPUT);
   Serial.begin(9600);
-  Serial.println("pH meter experiment!");
 }
 
 
