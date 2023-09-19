@@ -33,9 +33,9 @@ void loop(void) {
     // Serial.print("    pH value: ");
 
     Serial.print(pHValue);
-    Serial.print(",");
+    Serial.print("-");
     Serial.print("0");
-    Serial.print(",");
+    Serial.print("-");
     Serial.println("0");
 
     // digitalWrite(LED, digitalRead(LED) ^ 1);
